@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Inter', sans-seri;
+  font-family: 'Inter', sans-serif;
   color: rgba(255,255,255,0.75);
 }
 body {
@@ -10,7 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
   font-size: 15px;
   background-color: #090b1a;
 }
@@ -20,7 +20,7 @@ body {
   border-radius: 0.5rem;
   background-color: #1b1938;
   max-width: 450px;
-  margin: 0 1.5rem;
+  margin: 1.5rem;
   display: flex;
   flex-direction: column;
 }
@@ -97,7 +97,7 @@ body {
   margin-top: 2.75rem;
   color: #fff;
   font-size: 36px;
-  font-family: 'Inter', sans-seri;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   letter-spacing: 0.01em;
 }
@@ -139,13 +139,13 @@ body {
   text-transform: uppercase;
 }
 .card > main .stats > div span:first-of-type {
-  font-family: 'Inter', sans-seri;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   color: #fff;
   font-size: 24px;
 }
 .card > main .stats > div span:last-of-type {
-  font-family: 'Lexend Deca', sans-seri;
+  font-family: 'Lexend Deca', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-top: 0.5rem;
