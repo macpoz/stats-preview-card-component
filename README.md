@@ -12,8 +12,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Built with](#built-with)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -41,8 +39,6 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 - [Stylus](https://stylus-lang.com/)
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 
 ## Author
