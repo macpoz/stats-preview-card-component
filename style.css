@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-seri;
+  color: rgba(255,255,255,0.75);
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  font-size: 15px;
+  background-color: #090b1a;
+}
+.card {
+  box-shadow: 0 10px 20px -1px rgba(27,25,56,0.15);
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #1b1938;
+  max-width: 450px;
+  margin: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .card {
+    flex-direction: row-reverse;
+    max-width: 1110px;
+  }
+}
+.card > header {
+  background-color: #aa5cdb;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+@media (min-width: 768px) {
+  .card > header {
+    display: flex;
+    flex: 1;
+    max-width: 540px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0.5rem;
+  }
+}
+.card > header picture {
+  display: flex;
+  mix-blend-mode: multiply;
+}
+.card > header picture > img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+@media (min-width: 768px) {
+  .card > header picture > img {
+    height: 448px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0.5rem;
+  }
+}
+.card > main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0 2rem 2rem;
+}
+@media (min-width: 768px) {
+  .card > main {
+    text-align: left;
+    margin: 0;
+    flex: 1;
+  }
+}
+@media (min-width: 768px) {
+  .card > main > .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    margin-left: 2.5rem;
+    margin-right: 2rem;
+  }
+}
+@media (min-width: 1024px) {
+  .card > main > .container {
+    margin-left: 4.5rem;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+  }
+}
+.card > main h1 {
+  margin-top: 2.75rem;
+  color: #fff;
+  font-size: 36px;
+  font-family: 'Inter', sans-seri;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+.card > main h1 > span {
+  color: #aa5cdb;
+}
+.card > main p {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+@media (min-width: 768px) {
+  .card > main p {
+    margin-right: 2rem;
+  }
+}
+.card > main .stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (min-width: 768px) {
+  .card > main .stats {
+    flex-direction: row;
+    margin-right: 2.5rem;
+  }
+}
+.card > main .stats > div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+}
+@media (min-width: 768px) {
+  .card > main .stats > div {
+    margin-top: 0;
+  }
+}
+.card > main .stats > div:last-of-type > span {
+  text-transform: uppercase;
+}
+.card > main .stats > div span:first-of-type {
+  font-family: 'Inter', sans-seri;
+  font-weight: 700;
+  color: #fff;
+  font-size: 24px;
+}
+.card > main .stats > div span:last-of-type {
+  font-family: 'Lexend Deca', sans-seri;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 0.5rem;
+  font-size: 12px;
+  font-weight: normal;
+  color: rgba(255,255,255,0.6);
+}
+@media (min-width: 768px) and (min-width: 1024px) {
+  .card > main .stats {
+    margin-right: 5rem;
+  }
+}
